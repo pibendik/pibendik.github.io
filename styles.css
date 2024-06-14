@@ -6,12 +6,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: Arial, sans-serif;
-
+    font-family: 'Roboto', sans-serif; /* Updated font family */
+    font-size: 1.6rem; /* Increased font size */
+    font-weight: bold; /* Bolder text */
 }
 
 .glass {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(107, 25, 40, 0.128);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px) brightness(1.2);
@@ -23,6 +24,5 @@ body {
 
 a {
     text-decoration: none;
-    font-size: larger;
-    color: #241529;
+    color: #ffffff;
 }
