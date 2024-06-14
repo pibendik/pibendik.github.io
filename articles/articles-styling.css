@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+article {
+    background-color: #f4f4f4;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add this if not already positioned */
+}
+
+article figure {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    position: relative; /* Make figure a positioning context */
+}
+
+article figure img {
+    max-width: 100%;
+    max-height: 500px; /* Example max height */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the area, might crop the image */
+    border-radius: 8px;
+}
+
+article header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200%; /* Ensure it spans the width of the figure */
+    text-align: center; /* Center the text */
+    color: #fff; /* Adjust color for visibility */
+    background-color: #00000063;
+    font-size: larger;
+}
+
+article header h1 {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    /* Remove color here if specified in article header */
+}
+
+article p {
+    color: #171717;
+    line-height: 1.6;
+}
