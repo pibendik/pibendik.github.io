@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif; /* Updated font family */
     font-size: 1.2em; /* Increased font size */
     font-weight: bold; /* Bolder text */
-    background-image: url('../imgs/date.jpeg');
+    background-image: url('../imgs/tre.jpeg');
     /* Path to the image */
     background-size: cover;
     /* Cover the entire page */
@@ -46,16 +46,16 @@ header {
 
 
 .glass {
-    background: rgba(5, 5, 5, 0.485);
+    background: rgba(255, 255, 255, 0.485);
     box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.456);
     backdrop-filter: blur(3px) brightness(1.2);
     padding: 1em;
-    color: #fff;
+    color: #2c2c2c;
     text-align: center;
     margin: 2em;
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #2c2c2c;
 }
