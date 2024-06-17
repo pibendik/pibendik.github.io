@@ -10,8 +10,7 @@ body {
     font-family: 'Roboto', sans-serif; /* Updated font family */
     font-size: 1.2em; /* Increased font size */
     font-weight: bold; /* Bolder text */
-    background-image: url('../imgs/tre.jpeg');
-    /* Path to the image */
+    background-image: url('../imgs/bale2.jpeg');
     background-size: cover;
     /* Cover the entire page */
     background-position: center;
@@ -19,9 +18,8 @@ body {
 }
 
 footer {
-    background: rgba(5, 5, 5, 0.485);
-    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.456);
-    backdrop-filter: blur(3px) brightness(1.2);
+    background: rgba(255, 255, 255, 0.293);    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.456);
+    backdrop-filter: blur(1px) brightness(1.2);
     text-align: left;
     width: 100%;
     padding-left: 2em;
@@ -48,7 +46,7 @@ header {
 .glass {
     background: rgba(255, 255, 255, 0.293);
     box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.456);
-    backdrop-filter: blur(1px) brightness(1.2);
+    backdrop-filter: blur(2px) brightness(1.2);
     padding: 1em;
     color: #2c2c2c;
     text-align: center;
