@@ -6,11 +6,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-family: 'Roboto', sans-serif; /* Updated font family */
-    font-size: 2rem; /* Increased font size */
+    font-size: 1.2em; /* Increased font size */
     font-weight: bold; /* Bolder text */
-    background-image: url('../imgs/ICT_waste.jpeg');
+    background-image: url('../imgs/date.jpeg');
     /* Path to the image */
     background-size: cover;
     /* Cover the entire page */
@@ -18,15 +18,41 @@ body {
     /* Center the background image */
 }
 
+footer {
+    background: rgba(5, 5, 5, 0.485);
+    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.456);
+    backdrop-filter: blur(3px) brightness(1.2);
+    text-align: left;
+    width: 100%;
+    padding-left: 2em;
+    box-sizing: border-box; /* Add this line */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.bendik-glass{
+    background-image: url('imgs/bendik.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 2em;
+    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.456);
+}
+
+
 .glass {
-    background: rgba(107, 25, 40, 0.481);
-    border-radius: 10px;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.456);
-    backdrop-filter: blur(10px) brightness(1.2);
-    padding: 20px;
+    background: rgba(5, 5, 5, 0.485);
+    box-shadow: 4px 6px 9px rgba(0, 0, 0, 0.456);
+    backdrop-filter: blur(3px) brightness(1.2);
+    padding: 1em;
     color: #fff;
     text-align: center;
-    margin: 2rem;
+    margin: 2em;
 }
 
 a {
